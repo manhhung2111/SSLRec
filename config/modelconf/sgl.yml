@@ -21,7 +21,7 @@ test:
 
 data:
   type: general_cf
-  name: NetEase
+  name: iFashion
 
 model:
   name: sgl
