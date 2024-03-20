@@ -17,6 +17,10 @@ class DataHandlerGeneralCF:
 			predir = './datasets/general_cf/sparse_amazon/'
 		elif configs['data']['name'] == 'Youshu':
 			predir = './datasets/general_cf/sparse_Youshu/'
+		elif configs['data']['name'] == 'NetEase':
+			predir = './datasets/general_cf/sparse_NetEase/'
+		elif configs['data']['name'] == 'iFashion':
+			predir = './datasets/general_cf/sparse_iFashion/'
 		self.trn_file = predir + 'train_mat.pkl'
 		self.val_file = predir + 'valid_mat.pkl'
 		self.tst_file = predir + 'test_mat.pkl'
