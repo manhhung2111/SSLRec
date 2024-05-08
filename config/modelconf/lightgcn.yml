@@ -12,7 +12,7 @@ train:
   test_step: 3 # evaluate per {test_step} epochs
   patience: 5
   reproducible: true
-  seed: 2023
+  seed: 2020
   #pretrain_path: ./checkpoint/xxxx.pth
 
 test:
@@ -28,9 +28,9 @@ data:
 model:
   name: lightgcn # case-insensitive
   keep_rate: 0.5
-  layer_num: 2
+  layer_num: 1
   reg_weight: 1.0e-8
-  embedding_size: 32
+  embedding_size: 64
 
 tune:
   enable: false # Whether to enable grid search to search for optimal hyperparameters
