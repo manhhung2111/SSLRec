@@ -21,11 +21,11 @@ test:
 
 data:
   type: general_cf # choose in {general_cf, multi_behavior, sequential, social}
-  name: yelp
+  name: gowalla
 
 model:
   name: adagcl # case-insensitive
-  layer_num: 2
+  layer_num: 1
   reg_weight: 1.0e-5
   cl_weight: 1.0e-1
   ib_weight: 1.0e-2
@@ -36,4 +36,3 @@ model:
   init_temperature: 2.0
   temperature_decay: 0.98
   lambda0: 1.0e-4
-  

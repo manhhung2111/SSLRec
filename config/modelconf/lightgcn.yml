@@ -22,12 +22,12 @@ test:
 
 data:
   type: general_cf # choose in {general_cf, multi_behavior, sequential, social}
-  name: amazon
+  name: go
 
 model:
   name: lightgcn # case-insensitive
   keep_rate: 0.5
-  layer_num: 4
+  layer_num: 1
   reg_weight: 1.0e-8
   embedding_size: 64
 
